@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>Colores CSS</title> 
+  <style> 
+  body { 
+    font-family: Arial; 
+    background: #f4f4f4; 
+    margin: 40px; 
+  } 
+   .caja { 
+    width: 200px; 
+    height: 200px; 
+    margin: 20px; 
+    float: left; 
+    color: white; 
+    text-align: center; 
+    padding-top: 80px; 
+    font-size: 18px; 
+    font-weight: bold; 
+  } 
+  </style> 
+</head> 
+<body> 
+  <div class="caja" style="background-color: tomato;"> 
+  </div> 
+  <div class="caja" style="background: #3498db;">  
+  </div> 
+  <div class="caja" style="background: rgb(46, 204, 113);"> 
+  </div>
+  <div class="caja" style="background-color: rgba(155, 89, 182, 0.85);"> 
+  </div> 
+  <div style="clear: both;"></div> 
+ <h2>Gradientes lineales</h2> 
+  <div style="width: 900px; height: 200px; background: linear-gradient(to right, yellow, red); margin: 30px auto; color: black; text-align: center; padding-top: 80px; font-size: 24px; font-weight: bold; border-radius: 15px;"> 
+  </div> 
+  <div style="width: 900px; height: 200px; background: linear-gradient(45deg, orange, purple); margin: 30px auto; color: white; text-align: center; padding-top: 80px; font-size: 24px; font-weight: bold; border-radius: 15px;"> 
+  </div> 
+  <p style="font-size: 18px; max-width: 900px; margin: 40px auto;"></p> 
+ <h2>Imagen como fondo</h2> 
+  <div style="width: 900px; height: 400px; margin: 40px auto; 
+background-image: url(imagenes/ai-generated-9917901_640.png); 
+background-repeat: no-repeat: 
+background-size: cover: 
+background-position: center; 
+border-radius: 20px; 
+color: white; 
+font-size: 32px; 
+font-weight: bold; 
+display: flex;< 
+align-items: center; 
+justify-content: center; 
+text-align: center;"> 
+ <h2>Transparencia</h2> 
+  <div style="width: 250px; height:150px; background:rgba(255,0,150,1); float:left; margin:20px; color:white; text-align:center; padding-top:50px;"> 
+  </div> 
+  <div style="width: 250px; height:150px; background:rgba(255,0,150,0.6); float:left; margin:20px; color:white; text-align:center; padding-top:50px;"> 
+  </div> 
+  <div style="width: 250px; height:150px; background:rgba(255,0,150,0.3); float:left; margin:20px; color:white; text-align:center; padding-top:50px;"> 
+  </div> 
+  <div style="clear:both;"></div> 
+ <h2>Hexadecimal RGB</h2> 
+  <p style="font-size:18px;">Elegí el color hexadecimal <b>#ff6b35</b></p> 
+  <div style="width:300px; height:180px; background:#ff6b35; float:left; margin:20px; color:white; text-align:center; padding-top:60px; font-size:20px;"> 
+  Con hexadecimal #ff6b35</div> 
+  <div style="width:300px; height:180px; background:rgb(255,107,53); float:left; margin:20px; color:white; text-align:center; padding-top:60px; font-size:20px;"> 
+  Con RGB (255, 107, 53)</div> 
+  <div style="clear:both;"></div> 
+</body> 
+</html> 
